@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import './App.css'
 
 function App() {
 
@@ -7,7 +6,7 @@ function App() {
     <>
       <section id="center">
 
-        <div className= " bg-blue-400 p-2 ">
+        <div className= " bg-blue-500 p-2 h-screen  ">
           
         </div>
 
