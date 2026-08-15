@@ -3,7 +3,7 @@ import { Navbar } from './Navbar'
 
 const Home = () => {
   return (
-    <div>
+    <div className=' w-70% m-4 p-2 '>
 
         <Navbar/>
     </div>
