@@ -3,18 +3,18 @@ import image from "../assets/icon-cart.svg";
 import image2 from "../assets/image-avatar.png";
 export const Navbar = () => {
   return (
-    <div className="flex justify-between mx-auto items-center w-300 border-none border-2 border-b-gray-400 outline-none  bg-green-400 p-2 rounded-md ">
-      <div className="flex gap-4 items-center">
-        <h4 className="text-black text-lg font-bold">Sneakers</h4>
+    <div className="flex justify-between mx-auto items-center border-tl-none border-2 border-b-gray-400 outline-none p-2 rounded-md ">
+      <div className="flex gap-5 items-center">
+        <h4 className="text-black text-2xl font-bold">Sneakers</h4>
 
-        <div className="flex gap-4 ">
-          <a href="" className="text-white hover:text-gray-300">
+        <div className="flex gap-6 ">
+          <a href="" className="text-black font-semibold transition duration-300 cursor-pointer hover:text-gray-300">
             Collection
           </a>
-          <a href="" className="text-white hover:text-gray-300">
+          <a href="" className="text-black font-semibold transition duration-300 cursor-pointer hover:text-gray-300">
             Men
           </a>
-          <a href="" className="text-white hover:text-gray-300">
+          <a href="" className="text-black font-semibold transition duration-300 cursor-pointer hover:text-gray-300">
             Women
           </a>
         </div>
