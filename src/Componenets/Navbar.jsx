@@ -4,9 +4,8 @@ import image2 from '../assets/image-avatar.png';
 export const Navbar = () => {
   return (
     <div className="flex justify-between items-center w-300 border-none border-2 border-b-gray-400 outline-none  bg-green-400 p-2 rounded-md ">
-      <div>
-        
-      </div>                 
+  
+                        
       <div className="flex gap-4 items-center">
         <h4 className="text-black text-lg font-bold">Sneakers</h4>
 
