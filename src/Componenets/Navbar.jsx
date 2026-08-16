@@ -1,5 +1,6 @@
-import React from "react";
-
+import React from "react"
+import image from "src/assets/icon-cart.svg ";
+import image2 from 'src/assets/image-avatar.png';
 export const Navbar = () => {
   return (
     <div className="flex justify-between items-center w-200 border-none border-2 border-b-gray-400 outline-none  bg-green-400 w-50 h-10 justify-between items-center flex p-2 rounded-md ">
@@ -19,7 +20,11 @@ export const Navbar = () => {
         </div>
       </div>
 
-      <div></div>
+      <div>
+   <img src={image} alt="Cart icon" className="w-6 h-6 rounded-full  " />
+    <img src={image2} alt="Cart"  />
+
+      </div>
     </div>
   );
 };
