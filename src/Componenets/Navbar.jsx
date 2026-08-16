@@ -1,6 +1,6 @@
 import React from "react"
-import image from "src/assets/icon-cart.svg ";
-import image2 from 'src/assets/image-avatar.png';
+import image from "../assets/icon-cart.svg";
+import image2 from '../assets/image-avatar.png';
 export const Navbar = () => {
   return (
     <div className="flex justify-between items-center w-200 border-none border-2 border-b-gray-400 outline-none  bg-green-400 w-50 h-10 justify-between items-center flex p-2 rounded-md ">
