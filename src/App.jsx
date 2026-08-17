@@ -7,7 +7,7 @@ function App() {
       <section id="center">
         <Home/>
 
-        <div className= " bg-blue-500 p-2 h-screen  ">
+        <div className= " bg-blue-500 p-2 h-screen m ">
           
         </div>
 
