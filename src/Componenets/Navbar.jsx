@@ -21,8 +21,8 @@ export const Navbar = () => {
       </div>
 
       <div className="flex gap-4 items-center">
-        <img src={image} alt="Cart icon" className="w-6 h-6 rounded-full  " />border-
-        <img src={image2} alt=" Avatar image " className="w-8 h-8 border-2 rounded-full border- " />
+        <img src={image} alt="Cart icon" className="w-6 h-6 rounded-full  " />
+        <img src={image2} alt=" Avatar image " className="w-8 h-8 border-2 rounded-full hover:border-green-500 " />
       </div>
     </div>
   );
