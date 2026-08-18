@@ -11,8 +11,8 @@ function App() {
         <Home />
 
         <div className=" bg-blue-500 p-2 h-screen ">
-          <div className=" flex justify-evenly gap-4 items-center w-1/2 mx-auto bg-red-500 ">
-            <div className=" ">
+          <div className=" flex justify-evenly gap-4 items-center w-1/2 mx-auto bg-primary ">
+            <div className=" flex items-center">
               <img src={product1} alt="" className=" rounded-lg " />
             </div>
 
