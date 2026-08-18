@@ -5,7 +5,7 @@ export const Navbar = () => {
   return (
     <div className="flex justify-between shadow-sm mx-auto items-center pt-2 p-blue-300 border-x-0 border-t-0 border-0 border-2 border-b-gray-400 outline-none p-2 rounded-md ">
       <div className="flex gap-8 items-center justify-center w-150">
-        <h4 className="text-black text-2xl font-bold text-hsl(220, 13%, 13%)">
+        <h4 className="text-dark-blue text-2xl font-bold text-hsl(220, 13%, 13%)">
           Sneakers
         </h4>
 

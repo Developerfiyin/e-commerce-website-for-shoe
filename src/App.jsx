@@ -17,8 +17,8 @@ function App() {
             </div>
 
             <div>
-              <p className="text-dark-blue font-bold"> SNEAKER COMPANY</p>
-              <h3 className="text-2xl font-semibold  ">
+              <p className="text- font-bold"> SNEAKER COMPANY</p>
+              <h3 className="text-2xl text-secondary font-semibold  ">
                 {" "}
                 Fall Limited Edition Sneakers{"  "}
               </h3>
