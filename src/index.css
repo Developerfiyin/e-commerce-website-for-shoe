@@ -2,4 +2,6 @@
 
 @theme {
   --color-primary: hsl(26, 100%, 55%);
+  --color-dark-blue: hsl(220, 13%, 13%);
+
 }

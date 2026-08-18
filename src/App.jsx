@@ -17,10 +17,10 @@ function App() {
             </div>
 
             <div>
-              <p className="text-gray-400 font-bold"> SNEAKER COMPANY</p>
+              <p className="text-dark-blue font-bold"> SNEAKER COMPANY</p>
               <h3 className="text-2xl font-semibold  ">
                 {" "}
-                Fall Limited Edition Sneakers{" "}
+                Fall Limited Edition Sneakers{"  "}
               </h3>
               <p className=" text-gray-300 font-light ">
                 These low-profile sneakers are your perfect casual wear
