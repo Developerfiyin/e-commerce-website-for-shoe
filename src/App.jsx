@@ -11,23 +11,22 @@ function App() {
         <Home />
 
         <div className=" bg-blue-500 p-2 h-screen ">
-          <div className=" flex justify-evenly mx-auto ">
-            
-              <div className=" ">
-                {/* <img src={image2} alt="" className="w-100"/>
-                 */}
-                <img src={product1} alt="" className="w-100 rounded-lg " />
-              </div>
-            
+          <div className=" flex justify-evenly gap-4 items-center w-1/2 mx-auto bg-red-500 ">
+            <div className=" ">
+              <img src={product1} alt="" className=" rounded-lg " />
+            </div>
+
             <div>
               <p className="text-gray-400 font-bold"> SNEAKER COMPANY</p>
-              <h3 className="text-2xl font-semibold  "> Fall Limited Edition
-Sneakers </h3>
-<p className=" text-gray-300 font-light ">
-  These low-profile sneakers are your perfect casual wear
-companion. Featuring a durable rubber outer sole, they'll
-withstand everything the weather can offer.
-</p>
+              <h3 className="text-2xl font-semibold  ">
+                {" "}
+                Fall Limited Edition Sneakers{" "}
+              </h3>
+              <p className=" text-gray-300 font-light ">
+                These low-profile sneakers are your perfect casual wear
+                companion. Featuring a durable rubber outer sole, they'll
+                withstand everything the weather can offer.
+              </p>
               {/* */}
             </div>
           </div>
