@@ -6,23 +6,29 @@ const Header = () => {
   return (
     <div className=" ">
       <Navbar />
-      <div className="  min-h-screen bg-gray-100 flex items-center justify-center">
-        <div className=" flex items-center justify-center gap-20 py-20">
+      <div className="  min-h-screen bg-white flex items-center justify-center">
+        <div className=" flex items-center justify-center gap-20 py-20 mx-20">
           <div className=" w-1/2 ">
-            <img src={product1} alt="" className="rounded-lg" />
+            <img src={product1} alt="" className="rounded-lg " />
           </div>
           {/*the other mail container */}
 
-          <div>
-            <p className="text-grayishblue font-medium"> SNEAKER COMPANY</p>
+          <div className="w-1/2 flex flex-col gap-6">
+            <p className="text-gray font-bold "> SNEAKER COMPANY</p> 
             <h3 className="text-3xl text-secondary font-bold  ">
               Fall Limited Edition Sneakers{"  "}
             </h3>
-            <p className=" text-gray-300 font-light ">
+            <p className=" text-grayishblue font-medium ">
               These low-profile sneakers are your perfect casual wear companion.
               Featuring a durable rubber outer sole, they'll withstand
               everything the weather can offer.
             </p>
+
+            <div className=" flex gap-4 items-center">
+              <h3 className="font-bold text-2xl "> $125.00</h3>
+              <h4 className=" font-semibold text-light-gray bg-secondary text-center py-0 px-2 rounded-lg"> 50%</h4>
+              
+            </div>
           </div>
         </div>
       </div>
