@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Home from "./Componenets/Home";
+import Header from "./Componenets/Header";
 import product1 from "../src/assets/image-product-1.jpg";
 import image2 from "../src/assets/icon-plus.svg";
 
@@ -7,7 +7,8 @@ function App() {
   return (
     <>
       <section id="center">
-        <Home />
+        <Header/>
+
 
         {/* <div className=" bg-blue-500 h-screen ">
           <div  className=" flex justify-center gap-4 mx-auto items-center w-2/4 bg-primary
