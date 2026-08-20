@@ -24,11 +24,23 @@ const Header = () => {
               everything the weather can offer.
             </p>
 
-            <div className=" flex gap-4 items-center">
+            <div className=" flex gap-6 items-center">    
               <h3 className="font-bold text-2xl "> $125.00</h3>
-              <h4 className=" font-semibold text-light-gray bg-secondary text-center py-0 px-2 rounded-lg"> 50%</h4>
-              
+              <h4 className=" font-semibold text-light-gray bg-secondary text-center py-0 px-2 rounded-md"> 50%</h4>
             </div>
+            < p className="text-gray font-bold "> 250.00</p> 
+            <div className="flex gap-6 items-center bg-primary">
+              <div>
+              <button type="submit" className="bg-green-400" > 0</button>
+
+              </div>
+              <div>
+              <button type="submit" className="bg-secondary" > Add to cart</button>
+
+              </div>
+            </div>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+
           </div>
         </div>
       </div>
