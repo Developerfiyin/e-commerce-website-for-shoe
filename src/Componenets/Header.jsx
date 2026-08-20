@@ -33,22 +33,22 @@ const Header = () => {
               </h4>
             </div>
             <p className="text-gray font-bold "> $250.00</p>
-            <div className="flex gap-4 items-center bg-primary justify-evenly text-center  ">
-              <div className="flex gap-4 bg-pale rounded-lg w-40 items-center justify-center py-2 px-3  ">
-                <button className="text-primary font-semibold text-xl text-center  ">
+            <div className="flex gap-4 items-center bg-primary  text-center  ">
+              <div className="flex gap-4 bg-pale rounded-lg w-40 items-center justify-evenly py-2 px-3  ">
+                <button className="text-primary font-bold text-xl text-center  ">
                   -
                 </button>
-                <p className="text-center">0 </p>
-                <button className="text-primary font-semibold text-xl text-center ">
+                <p className="text-center font-bold ">0 </p>
+                <button className="text-primary font-bold text-xl text-center ">
                   +
                 </button>
               </div>
               <div className=" items-center w-60 gap-4 flex justify-center bg-pale py-2 px-3 rounded-lg ">
-                <img src={image} alt="" />
+                <img src={image} alt="" className=" w-4 h-4 blue-400" />
 
                 <button
                   type="submit"
-                  className="bg-secondary text-center text-white"
+                  className="text-secondary text-center  text-sm font-bold"
                 >
                   {" "}
                   Add to cart
