@@ -2,6 +2,7 @@ import React from "react";
 import { Navbar } from "./Navbar";
 import product1 from "../assets/image-product-1.jpg";
 import image from "../assets/icon-cart.svg";
+import image1 from "../assets/image-product-2.jpg"
 
 const Header = () => {
   return (
@@ -9,8 +10,12 @@ const Header = () => {
       <Navbar />
       <div className="  min-h-screen bg-white flex items-center justify-center">
         <div className=" flex items-center justify-center gap-20 py-20 mx-20">
-          <div className=" w-1/2 ">
+          <div className=" w-1/2 flex flex-col gap-5  ">
             <img src={product1} alt="" className="rounded-lg " />
+            <div className="flex gap-4 justify-evenly">
+              <img src={image1} alt="" />
+              <img src={image1} alt="" />
+              </div>
           </div>
           {/*the other mail container */}
 
