@@ -1,12 +1,13 @@
 import React from "react";
 import image from "../assets/icon-cart.svg";
 import image2 from "../assets/image-avatar.png";
+import logo from "../assets/logo.svg"
 export const Navbar = () => {
   return (
     <div className="flex justify-between mx-auto items-center w-[90%] max-w-[1300px] rounded-md border-x-0 border-t-0 border-0 border-2 border-b-gray-400">
       <div className="flex gap-8 items-center justify-center h-[100px] ">
         <h4 className="text-dark-blue text-2xl font-bold ">
-          Sneakers
+          <img src={logo} alt="" />
         </h4>
         <div className="flex gap-6 items-center ">
           <a
